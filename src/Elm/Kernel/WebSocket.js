@@ -13,7 +13,7 @@ var _WebSocket_open = F2(function(url, settings)
 	{
 		try
 		{
-			var socket = new WebSocket(url);
+			var socket = new WebSocket(url, 'graphql-ws');
 		}
 		catch(err)
 		{
